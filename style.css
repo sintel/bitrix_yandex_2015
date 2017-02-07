@@ -1,0 +1,540 @@
+@font-face {
+	font-family: 'Geometria';
+	src: url('fonts/Geometria.otf');
+	font-family: 'GeometriaMedium';
+	src: url('fonts/GeometriaMedium.otf');
+	font-family: 'BebasNeue_Bold';
+	src: url('fonts/BebasNeue_Bold.otf');
+}
+
+body{
+	padding:0;
+	margin:0;
+	font-family: 'Geometria', sans-serif;
+}
+
+.header {
+	display: block;
+	height: 714px;
+	background: url('img/header_bg.jpg') no-repeat;
+	border-bottom: 11px solid #96aab6;
+}
+
+.header .container {
+	display: block;
+	max-width: 1135px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-size: 12pt;
+	margin-bottom: 30px;
+}
+
+.logo p {
+	margin-top: 9px;
+}
+
+.logo p, img {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.orange-line {
+	position:relative;
+	height: 2px;
+	width: 174px;
+	background: #ff8e26;
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+
+.container h1 {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30pt;
+}
+
+.box img {
+	display: inline-block;
+	margin-left: 100px;
+	margin-right: 26px;
+}
+
+.box span {
+	display: inline-block;
+	font-family: 'Geometria';
+	font-size: 22pt;
+	color: #fff;
+	text-align: left;
+	margin-top: 85px;
+}
+
+.timer {
+	position: relative;
+
+	display: inline-block;
+	background: #68469a;
+	border-radius: 100px;
+	padding: 15px;
+	font-family: 'Geometria';
+}
+
+.timer .button {
+	position: relative;
+	display: inline-block;
+	font-size: 15pt;
+	color: #fff;
+	text-decoration: none;
+	background: #60d51a;
+	box-shadow:	0 1px 0 0 #000,
+				inset 0 1px 0 0 #93ff4d;
+	padding: 30px 40px;
+	border-radius: 50px;
+}
+
+.timer .button:hover {
+	position: relative;
+	display: inline-block;
+	font-size: 15pt;
+	color: #fff;
+	text-decoration: none;
+	background: #80e842;
+	box-shadow:	0 1px 0 0 #000,
+				inset 0 1px 0 0 #93ff4d;
+	padding: 30px 40px;
+	border-radius: 50px;
+}
+
+.timer .ostalos {
+	display: inline-block;
+	color: #a38fc2;
+	font-size: 15pt;
+	vertical-align: middle;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.timer .time {
+	display: inline-block;
+	font-family: 'BebasNeue_Bold';
+	font-size: 44pt;
+	color: #c5b5dd;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+.timer .dots {
+	font-family: 'Bebas Neue';
+	font-size: 44pt;
+	color: #c5b5dd;
+	line-height: 20px;
+}
+
+.timer .caption {
+	text-transform: uppercase;
+	font-size: 7pt;
+	color: #a38fc2;
+}
+
+.timer .minutes {
+	margin-right: 20px;
+}
+
+.days,
+.hours,
+.minutes,
+.dots
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.block { /* Общие свойства для всех блоков */
+	display: block;
+	position: relative;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.block h1 { /*Заголовки всех блоков кроме хедера*/
+	font-size: 38pt;
+	text-align: center;
+}
+
+.block-1 {
+	border-bottom: 10px solid #d1dade;
+}
+
+.feature-1, 
+.feature-2,
+.feature-3,
+.feature-4,
+{
+	display: block;
+	max-width: 1135px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 90px;
+}
+
+.feature {
+	display: inline-block;
+	font-size:18pt;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.block1-pic { /* свойства для картинок */
+	display: inline-block;
+	margin-right: 45px;
+	margin-left: 45px;
+	vertical-align: middle;
+}
+
+.about-feature {
+	display: inline-block;
+	text-align: left;
+	font-size: 12pt;
+	color: #727272;
+	vertical-align: middle;
+}
+
+/* костыли, чтоб выровнять блоки по центру */
+.feature-1 .about-feature {
+	padding-right: 16px;
+}
+
+.feature-2 .feature { 
+	padding-left: 9px;
+}
+
+.feature-2 .about-feature {
+	padding-right: 16px;
+}
+
+.feature-3 .about-feature {
+	padding-right: 4px;
+}
+
+.feature-4 .feature { 
+	padding-left: 4px;
+}
+
+/* ---------------------- */
+
+.vertical-orange-line {
+	width:4px;
+	height: 24px;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ff8e26;
+}
+
+.vertical-orange-line-2 {
+	width:4px;
+	height: 18px;
+	margin-top:2px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ff8e26;
+}
+
+.orange-circle {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ff8e26;
+}
+
+.button-field {
+	display: block;
+	text-align: center;
+	max-width: 1135px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button-field p {
+	position: relative;
+	display: inline-block;
+	color: #727272;
+	font-size: 18pt;
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.block-1 .button {
+	position: relative;
+	display: inline-block;
+	font-size: 15pt;
+	color: #fff;
+	text-decoration: none;
+	background: #60d51a;
+	box-shadow:	0 1px 0 0 #828282,
+				inset 0 1px 0 0 #93ff4d;
+	padding: 30px 40px;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block-1 .button:hover {
+	position: relative;
+	display: inline-block;
+	font-size: 15pt;
+	color: #fff;
+	text-decoration: none;
+	background: #80e842;
+	box-shadow:	0 1px 0 0 #81b053,
+				inset 0 1px 0 0 #93ff4d;
+	padding: 30px 40px;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* "Блок Если у вас старая лицензия" */
+.block-2 {
+	background: #f1f5f7;
+	padding-bottom: 0;
+}
+
+.block-2 .wrap {
+	display: block;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.block-2 .wrap span {
+	display: inline-block;
+	color: #555555;
+	font-size: 12pt;
+	text-align: left;
+	max-width: 460px;
+}
+
+.block-2 .wrap strong {
+	text-transform: uppercase;
+	color: #000;
+}
+
+.block-2 .wrap img{
+	display: inline-block;
+	margin-left: 35px;
+	float: bottom;
+}
+
+.block-2 .wrap h1 {
+	margin-top: 0;
+}
+
+/* Блок "Вы также получите" */
+.block-3 .wrap h1 {
+	margin-top: 0;
+}
+
+.block-3 .wrap {
+	display: block;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block-left,
+.block-right
+{
+	margin-bottom: 70px;
+}
+
+.block-left span
+{
+	display: inline-block;
+	width: 400px;
+	margin-top: 20px;
+	text-align: left;
+	color: #555555;
+	font-size: 12pt;
+}
+
+.block-right span
+{
+	display: inline-block;
+	width: 400px;
+	margin-left: 70px;
+	margin-top: 20px;
+	text-align: left;
+	color: #555555;
+	font-size: 12pt;
+}
+
+.block-left strong,
+.block-right strong
+{
+	font-size: 18pt;
+	color: #000;
+}
+
+.block-left img {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.block-right img {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+/* Блок "Дайте своему сайту преимущество" */
+.block-4 {
+	background: url('img/block4_bg.jpg') no-repeat;
+	border-bottom: 10px solid #830733;
+	padding-bottom: 0;
+}
+
+.block-4 .wrap {
+	display: block;
+	width: 980px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.block-4 .wrap h1 {
+	margin-top: 0;
+}
+
+.block-4 .wrap span {
+	display: inline-block;
+	color: #fff;
+	font-size: 18pt;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.block-4 .wrap a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14pt;
+	margin-bottom: 40px;
+	padding: 20px 40px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+}
+
+.block-4 .wrap a:hover {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14pt;
+	margin-bottom: 40px;
+	padding: 20px 40px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: rgba(256, 256, 256, 0.33);
+}
+
+/* Блок со счетчиком магазинов */
+.block-5 {
+	text-align: center;
+}
+
+.digits {
+	margin: 25px 35px;
+	display: inline-block;
+	color: #000;
+	font-size: 90pt;
+	font-family: 'BebasNeue_Bold';
+}
+
+.block-5 .container {
+	display: inline-block;
+	margin-top: 90px;
+	margin-bottom: 45px;
+	border: 2px solid #ebebeb;
+	border-radius: 12px;
+	box-shadow:	0 2px 0 0 #fff,
+				0 -2px 0 0 #fff,
+				0 4px 0 0 #ebebeb,
+				0 -4px 0 0 #ebebeb;
+	background: linear-gradient(to top, 
+					#fff 50%, #ebebeb 50%,
+					#ebebeb 51%, #fff 51%,
+					#fff 100%);
+	background: -webkit-linear-gradient(to top, 
+					#fff 50%, #ebebeb 50%,
+					#ebebeb 51%, #fff 51%,
+					#fff 100%);
+	background: -moz-linear-gradient(to top, 
+					#fff 50%, #ebebeb 50%,
+					#ebebeb 51%, #fff 51%,
+					#fff 100%);
+}
+
+.block-5 p {
+	display: inline-block;
+	color: #555555;
+	font-size: 18pt;
+	margin-bottom: 80px;
+}
+
+.block-5 .button {
+	display: inline-block;
+	font-size: 15pt;
+	color: #fff;
+	text-decoration: none;
+	background: #60d51a;
+	box-shadow:	0 1px 0 0 #828282,
+				inset 0 1px 0 0 #93ff4d;
+	padding: 30px 40px;
+	border-radius: 50px;
+}
+
+.block-5 .button:hover {
+	display: inline-block;
+	font-size: 15pt;
+	color: #fff;
+	text-decoration: none;
+	background: #80e842;
+	box-shadow:	0 1px 0 0 #81b053,
+				inset 0 1px 0 0 #93ff4d;
+	padding: 30px 40px;
+	border-radius: 50px;
+}
+
+.block-5 .wrap .little-gray-line { /* маленькие серые линии справа и слева от счетчика */
+	display: inline-block;
+	height: 2px;
+	width: 8px;
+	background: #ebebeb;
+	vertical-align: middle;
+	margin: 0 7px;
+	margin-bottom: 64px;
+}
+
+/* Футер */
+.footer {
+	text-align: center;
+	background: #343a44;
+	padding: 60px 0;
+}
+
+.footer span {
+	display: inline-block;
+	color: #727a86;
+	font-size: 10pt;
+}
